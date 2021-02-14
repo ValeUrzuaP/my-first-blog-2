@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-import environ
+
 
 from django.core.exceptions import ImproperlyConfigured
 
@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 # Load operating system environment variables and then prepare to use them
-env = environ.Env()
+
 
 # Application definition
 
